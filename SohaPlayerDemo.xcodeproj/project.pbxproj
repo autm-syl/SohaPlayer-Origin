@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C75CC8995510EBF455A3701 /* libPods-SohaPlayerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0EE0BFBD914E78FCF808B60 /* libPods-SohaPlayerDemo.a */; };
+		9E16F8E11DC1EF9F00D5DEB7 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E16F8E01DC1EF9F00D5DEB7 /* AFNetworking.framework */; };
+		9E16F8E21DC1EFA500D5DEB7 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E16F8E01DC1EF9F00D5DEB7 /* AFNetworking.framework */; };
+		9E16F8E31DC1EFA500D5DEB7 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9E16F8E01DC1EF9F00D5DEB7 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9E483FB51DC0B82F008E617C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBD64A31DB7437E0002B01A /* libc++.tbd */; };
+		9E483FB61DC0B839008E617C /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBD64991DB743680002B01A /* libstdc++.6.0.9.tbd */; };
+		9E483FB71DC0B839008E617C /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBD649A1DB743680002B01A /* libstdc++.6.tbd */; };
+		9E483FB81DC0B839008E617C /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBD649B1DB743680002B01A /* libstdc++.tbd */; };
+		9E937B911DB7328500793DD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E937B901DB7328500793DD2 /* main.m */; };
+		9E937B941DB7328500793DD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E937B931DB7328500793DD2 /* AppDelegate.m */; };
+		9E937B971DB7328500793DD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E937B961DB7328500793DD2 /* ViewController.m */; };
+		9E937B9A1DB7328500793DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E937B981DB7328500793DD2 /* Main.storyboard */; };
+		9E937B9D1DB7328600793DD2 /* SohaPlayerDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E937B9B1DB7328600793DD2 /* SohaPlayerDemo.xcdatamodeld */; };
+		9E937B9F1DB7328600793DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E937B9E1DB7328600793DD2 /* Assets.xcassets */; };
+		9E937BA21DB7328600793DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E937BA01DB7328600793DD2 /* LaunchScreen.storyboard */; };
+		9E937BAD1DB7333800793DD2 /* NativeControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E937BAB1DB7333800793DD2 /* NativeControlsView.m */; };
+		9E937BAE1DB7333800793DD2 /* NativeControlsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E937BAC1DB7333800793DD2 /* NativeControlsView.xib */; };
+		9E937BB11DB7335800793DD2 /* NativeComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E937BB01DB7335800793DD2 /* NativeComponents.m */; };
+		9E937BB41DB7336E00793DD2 /* NativeComponentsFs.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E937BB31DB7336E00793DD2 /* NativeComponentsFs.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9E483FC61DC0B98F008E617C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9E16F8E31DC1EFA500D5DEB7 /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9E16F8E01DC1EF9F00D5DEB7 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		9E937B8C1DB7328500793DD2 /* SohaPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SohaPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E937B901DB7328500793DD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E937B921DB7328500793DD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E937B931DB7328500793DD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E937B951DB7328500793DD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E937B961DB7328500793DD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E937B991DB7328500793DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E937B9C1DB7328600793DD2 /* SohaPlayerDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SohaPlayerDemo.xcdatamodel; sourceTree = "<group>"; };
+		9E937B9E1DB7328600793DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E937BA11DB7328600793DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E937BA31DB7328600793DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E937BAA1DB7333800793DD2 /* NativeControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeControlsView.h; sourceTree = "<group>"; };
+		9E937BAB1DB7333800793DD2 /* NativeControlsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeControlsView.m; sourceTree = "<group>"; };
+		9E937BAC1DB7333800793DD2 /* NativeControlsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeControlsView.xib; sourceTree = "<group>"; };
+		9E937BAF1DB7335800793DD2 /* NativeComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeComponents.h; sourceTree = "<group>"; };
+		9E937BB01DB7335800793DD2 /* NativeComponents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeComponents.m; sourceTree = "<group>"; };
+		9E937BB21DB7336E00793DD2 /* NativeComponentsFs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeComponentsFs.h; sourceTree = "<group>"; };
+		9E937BB31DB7336E00793DD2 /* NativeComponentsFs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeComponentsFs.m; sourceTree = "<group>"; };
+		9EBD64831DB742E70002B01A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9EBD64851DB742F30002B01A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9EBD64871DB742FC0002B01A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9EBD64891DB743040002B01A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9EBD648B1DB7430C0002B01A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9EBD648D1DB743140002B01A /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		9EBD648F1DB743270002B01A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		9EBD64911DB7432D0002B01A /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9EBD64931DB743380002B01A /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		9EBD64951DB7434C0002B01A /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		9EBD64971DB743570002B01A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9EBD64991DB743680002B01A /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		9EBD649A1DB743680002B01A /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		9EBD649B1DB743680002B01A /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		9EBD649F1DB743750002B01A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		9EBD64A01DB743750002B01A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		9EBD64A31DB7437E0002B01A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C0EE0BFBD914E78FCF808B60 /* libPods-SohaPlayerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SohaPlayerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4A296F7B77CA7E918E4022 /* Pods-SohaPlayerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SohaPlayerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SohaPlayerDemo/Pods-SohaPlayerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD67FA69471C79BD52839F74 /* Pods-SohaPlayerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SohaPlayerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SohaPlayerDemo/Pods-SohaPlayerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E937B891DB7328500793DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E483FB61DC0B839008E617C /* libstdc++.6.0.9.tbd in Frameworks */,
+				9E16F8E11DC1EF9F00D5DEB7 /* AFNetworking.framework in Frameworks */,
+				9E16F8E21DC1EFA500D5DEB7 /* AFNetworking.framework in Frameworks */,
+				9E483FB71DC0B839008E617C /* libstdc++.6.tbd in Frameworks */,
+				9E483FB81DC0B839008E617C /* libstdc++.tbd in Frameworks */,
+				9E483FB51DC0B82F008E617C /* libc++.tbd in Frameworks */,
+				1C75CC8995510EBF455A3701 /* libPods-SohaPlayerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55FF18F115206E60432AF18E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD67FA69471C79BD52839F74 /* Pods-SohaPlayerDemo.debug.xcconfig */,
+				EF4A296F7B77CA7E918E4022 /* Pods-SohaPlayerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E937B831DB7328500793DD2 = {
+			isa = PBXGroup;
+			children = (
+				9E16F8E01DC1EF9F00D5DEB7 /* AFNetworking.framework */,
+				9E937B8E1DB7328500793DD2 /* SohaPlayerDemo */,
+				9E937B8D1DB7328500793DD2 /* Products */,
+				C6EA7FEDDD8C2591AF9E62E9 /* Frameworks */,
+				55FF18F115206E60432AF18E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9E937B8D1DB7328500793DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E937B8C1DB7328500793DD2 /* SohaPlayerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E937B8E1DB7328500793DD2 /* SohaPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9E937BA91DB7333800793DD2 /* NativeControlsView */,
+				9E937B921DB7328500793DD2 /* AppDelegate.h */,
+				9E937B931DB7328500793DD2 /* AppDelegate.m */,
+				9E937B951DB7328500793DD2 /* ViewController.h */,
+				9E937B961DB7328500793DD2 /* ViewController.m */,
+				9E937BAF1DB7335800793DD2 /* NativeComponents.h */,
+				9E937BB01DB7335800793DD2 /* NativeComponents.m */,
+				9E937BB21DB7336E00793DD2 /* NativeComponentsFs.h */,
+				9E937BB31DB7336E00793DD2 /* NativeComponentsFs.m */,
+				9E937B981DB7328500793DD2 /* Main.storyboard */,
+				9E937B9E1DB7328600793DD2 /* Assets.xcassets */,
+				9E937BA01DB7328600793DD2 /* LaunchScreen.storyboard */,
+				9E937BA31DB7328600793DD2 /* Info.plist */,
+				9E937B9B1DB7328600793DD2 /* SohaPlayerDemo.xcdatamodeld */,
+				9E937B8F1DB7328500793DD2 /* Supporting Files */,
+			);
+			path = SohaPlayerDemo;
+			sourceTree = "<group>";
+		};
+		9E937B8F1DB7328500793DD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E937B901DB7328500793DD2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E937BA91DB7333800793DD2 /* NativeControlsView */ = {
+			isa = PBXGroup;
+			children = (
+				9E937BAA1DB7333800793DD2 /* NativeControlsView.h */,
+				9E937BAB1DB7333800793DD2 /* NativeControlsView.m */,
+				9E937BAC1DB7333800793DD2 /* NativeControlsView.xib */,
+			);
+			path = NativeControlsView;
+			sourceTree = "<group>";
+		};
+		C6EA7FEDDD8C2591AF9E62E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBD64A31DB7437E0002B01A /* libc++.tbd */,
+				9EBD649F1DB743750002B01A /* libxml2.2.tbd */,
+				9EBD64A01DB743750002B01A /* libxml2.tbd */,
+				9EBD64991DB743680002B01A /* libstdc++.6.0.9.tbd */,
+				9EBD649A1DB743680002B01A /* libstdc++.6.tbd */,
+				9EBD649B1DB743680002B01A /* libstdc++.tbd */,
+				9EBD64971DB743570002B01A /* libz.tbd */,
+				9EBD64951DB7434C0002B01A /* libSystem.tbd */,
+				9EBD64931DB743380002B01A /* MediaAccessibility.framework */,
+				9EBD64911DB7432D0002B01A /* Social.framework */,
+				9EBD648F1DB743270002B01A /* WebKit.framework */,
+				9EBD648D1DB743140002B01A /* AdSupport.framework */,
+				9EBD648B1DB7430C0002B01A /* AudioToolbox.framework */,
+				9EBD64891DB743040002B01A /* AVFoundation.framework */,
+				9EBD64871DB742FC0002B01A /* CoreMedia.framework */,
+				9EBD64851DB742F30002B01A /* QuartzCore.framework */,
+				9EBD64831DB742E70002B01A /* SystemConfiguration.framework */,
+				C0EE0BFBD914E78FCF808B60 /* libPods-SohaPlayerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E937B8B1DB7328500793DD2 /* SohaPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E937BA61DB7328600793DD2 /* Build configuration list for PBXNativeTarget "SohaPlayerDemo" */;
+			buildPhases = (
+				49B2C7EBFFD1524C0F290367 /* [CP] Check Pods Manifest.lock */,
+				9E937B881DB7328500793DD2 /* Sources */,
+				9E937B891DB7328500793DD2 /* Frameworks */,
+				9E937B8A1DB7328500793DD2 /* Resources */,
+				9E483FC61DC0B98F008E617C /* Embed Frameworks */,
+				F7FF5B6920CCAE190260CB6E /* [CP] Embed Pods Frameworks */,
+				E50E6E6755E7692D8FC98DA8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SohaPlayerDemo;
+			productName = SohaPlayerDemo;
+			productReference = 9E937B8C1DB7328500793DD2 /* SohaPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E937B841DB7328500793DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Le Cuong";
+				TargetAttributes = {
+					9E937B8B1DB7328500793DD2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 76X7GRK948;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9E937B871DB7328500793DD2 /* Build configuration list for PBXProject "SohaPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E937B831DB7328500793DD2;
+			productRefGroup = 9E937B8D1DB7328500793DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E937B8B1DB7328500793DD2 /* SohaPlayerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E937B8A1DB7328500793DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E937BA21DB7328600793DD2 /* LaunchScreen.storyboard in Resources */,
+				9E937BAE1DB7333800793DD2 /* NativeControlsView.xib in Resources */,
+				9E937B9F1DB7328600793DD2 /* Assets.xcassets in Resources */,
+				9E937B9A1DB7328500793DD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49B2C7EBFFD1524C0F290367 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E50E6E6755E7692D8FC98DA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SohaPlayerDemo/Pods-SohaPlayerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7FF5B6920CCAE190260CB6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SohaPlayerDemo/Pods-SohaPlayerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E937B881DB7328500793DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E937BB41DB7336E00793DD2 /* NativeComponentsFs.m in Sources */,
+				9E937BB11DB7335800793DD2 /* NativeComponents.m in Sources */,
+				9E937B9D1DB7328600793DD2 /* SohaPlayerDemo.xcdatamodeld in Sources */,
+				9E937B971DB7328500793DD2 /* ViewController.m in Sources */,
+				9E937BAD1DB7333800793DD2 /* NativeControlsView.m in Sources */,
+				9E937B941DB7328500793DD2 /* AppDelegate.m in Sources */,
+				9E937B911DB7328500793DD2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E937B981DB7328500793DD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E937B991DB7328500793DD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E937BA01DB7328600793DD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E937BA11DB7328600793DD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E937BA41DB7328600793DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E937BA51DB7328600793DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E937BA71DB7328600793DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD67FA69471C79BD52839F74 /* Pods-SohaPlayerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76X7GRK948;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SohaPlayerDemo",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/UrbanAirship-iOS-SDK\"",
+					"\"$(SRCROOT)/include\"/**",
+				);
+				INFOPLIST_FILE = SohaPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcc.jackylmao.SohaPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E937BA81DB7328600793DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF4A296F7B77CA7E918E4022 /* Pods-SohaPlayerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 76X7GRK948;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SohaPlayerDemo",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/UrbanAirship-iOS-SDK\"",
+					"\"$(SRCROOT)/include\"/**",
+				);
+				INFOPLIST_FILE = SohaPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vcc.jackylmao.SohaPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E937B871DB7328500793DD2 /* Build configuration list for PBXProject "SohaPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E937BA41DB7328600793DD2 /* Debug */,
+				9E937BA51DB7328600793DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E937BA61DB7328600793DD2 /* Build configuration list for PBXNativeTarget "SohaPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E937BA71DB7328600793DD2 /* Debug */,
+				9E937BA81DB7328600793DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E937B9B1DB7328600793DD2 /* SohaPlayerDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E937B9C1DB7328600793DD2 /* SohaPlayerDemo.xcdatamodel */,
+			);
+			currentVersion = 9E937B9C1DB7328600793DD2 /* SohaPlayerDemo.xcdatamodel */;
+			path = SohaPlayerDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E937B841DB7328500793DD2 /* Project object */;
+}

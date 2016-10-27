@@ -1,0 +1,16 @@
+PODS:
+  - SohaPlayer (1.0.1)
+
+DEPENDENCIES:
+  - SohaPlayer (from `SohaPlayer.podspec`)
+
+EXTERNAL SOURCES:
+  SohaPlayer:
+    :path: SohaPlayer.podspec
+
+SPEC CHECKSUMS:
+  SohaPlayer: 0239bba54e2e8edd6cde79a62afadaba8eff6c8a
+
+PODFILE CHECKSUM: 74e7cbcbfa01ffa56e80d827db28b3a4e4849e68
+
+COCOAPODS: 1.0.1
